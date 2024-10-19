@@ -5,7 +5,7 @@ title: CV
 nav: true
 nav_order: 5
 cv_pdf: Osama Nusair - CV.pdf
-description: This is a description of the page. You can modify it in '_pages/cv.md'. You can also change or remove the top pdf download button.
+description: Here is my CV. <a href='/assets/pdf/Osama Nusair - CV.pdf'>Download PDF</a>.
 toc:
   sidebar: left
 ---

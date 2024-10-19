@@ -9,7 +9,7 @@ profile:
   image: profile_pic.jpeg
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p>65 Tallington Road, B33 0PL</p>
+    <p>65 Tallington Rd, B33 0PL</p>
     <p>Birmingham, West Midlands</p>
     <p>United Kingdom</p>
 
@@ -18,8 +18,13 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-My name is Osama Nusair.
+Welcome!
+I’m Osama Nusair, a dedicated Cyber Security Researcher and Engineer with a deep passion for technology and safeguarding digital landscape. With specialized skills in Penetration Testing, Red Teaming, Application & Network Security, and Digital Forensics & Incident Response, I help organizations secure their systems and mitigate the latest cyber threats.
 
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+My expertise includes working on cutting-edge projects such as Security Information and Event Management (SIEM) solutions that streamline threat detection, developing smartphone forensic tools for Android and iOS platforms, implementing honeypot strategies for edge network devices, and building Cyber Range platform for Red/Blue Team exercises and Capture-The-Flag (CTF) challenges. <a href='/projects'>Check out my projects here</a>
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+As a Founder of Cyber Security Startup <a href='https://airoverflow.com'>AirOverflow</a>, I’ve successfully led cybersecurity initiatives that enhanced security postures and reduced risks.
+
+Looking ahead, I’m eager to explore the intersection of artificial intelligence and cybersecurity to develop smarter, more adaptive threat detection systems.
+
+I’m always open to collaborating on cybersecurity projects or consulting on challenging security problems. Feel free to reach out via <a href='mailto:o.nusair@airoverflow.com'>o.nusair@airoverflow.com</a> or connect with me on <a href='https://www.linkedin.com/in/xamaa6'>Linkedin</a>. Let’s discuss how we can work together to build a safer digital future.
