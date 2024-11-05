@@ -2,7 +2,7 @@
 layout: page
 title: Projects
 permalink: /projects/
-description: A growing collection of your cool projects.
+description: A Growing Collection of My Cybersecurity Projects.
 nav: true
 nav_order: 3
 display_categories: [Work, Education, Fun]
