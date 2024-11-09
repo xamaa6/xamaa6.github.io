@@ -8,7 +8,8 @@ category: Work
 giscus_comments: false
 ---
 
-This project delivers a comprehensive toolkit for conducting digital forensic analysis on Android devices, supporting data recovery, evidence preservation, and filesystem analysis. It’s geared towards forensic investigators, cybersecurity professionals, and researchers working on mobile forensics, with a focus on automation and repeatable workflows.
+As a team member of digital forensics tool development at <a href='https://nccs.pk/'> NCCS</a>, I developed several modules for Android Forensics. This project delivers a comprehensive toolkit for conducting digital forensic analysis on Android devices, supporting data recovery, evidence preservation, and filesystem analysis. It’s geared towards forensic investigators, cybersecurity professionals, and researchers working on mobile forensics, with a focus on automation and repeatable workflows.
+
 <b> Tools & Technologies: </b>
 <ul>
     <li>Python3: Used extensively for scripting and automating forensic processes. Python’s libraries enable efficient data parsing, pattern matching, and extraction, making it ideal for processing complex filesystem structures and recovering data from Android devices.</li>

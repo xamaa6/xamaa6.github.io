@@ -1,80 +1,56 @@
 ---
 layout: page
-title: project 4
-description: another without an image
-img:
+title: Capture the Flag (CTF) Platform
+description: A Capture-The-Flag (CTF) platform for Cyber Security competitions
+img: assets/img/ctf-1.jpeg
 importance: 3
-category: fun
+category: Work
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
+This Capture the Flag (CTF) Platform was developed at <a href='https://airoverflow.com/'> AirOverflow</a> to provide a scalable, engaging environment for cybersecurity competitions. Built on the robust CTFd framework, this platform powers a wide range of CTF events, allowing participants to tackle real-world cybersecurity challenges and hone their skills. It has hosted multiple high-profile competitions, including the Pakistan Cyber Security Challenge (PCC) in 2022 and 2023, Cyber Siege CTF in 2022, and AirOverflow CTF in 2024, each bringing together skilled participants from diverse backgrounds to tackle hands-on security challenges.
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
-
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
+<b> Tools & Technologies: </b>
+<ul>
+    <li>CTFd Framework: The core framework for the platform, CTFd provides a customizable and extensible base for creating and managing CTF challenges, user accounts, scoring systems, and leaderboards.</li>
+    <li>Python & Flask: Python, along with Flask (the underlying framework for CTFd), enables rapid development and customization, providing flexibility for integrating features and modifying the platform to meet event-specific needs.</li>
+    <li>Docker: For efficient deployment of challenge environments, Docker allows us to containerize individual challenges, ensuring isolated and scalable deployments across different infrastructure setups.</li>
+    <li>Nginx & SSL/TLS Security: Nginx is used to serve the platform securely, with SSL/TLS encryption ensuring secure participant connections and a professional look for competition environments.</li>
+    <li>MySQL: A reliable backend database that stores user data, challenge details, and event scores, ensuring fast and efficient data retrieval for large-scale competitions.</li>
+</ul>
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/ctf-2.jpeg" title="CTF Scoreboard" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
+    Cyber Siege CTF Scoreboard.
 </div>
+
+<b> Key Features: </b>
+<ul>
+    <li>Customizable Challenge Deployment: Enables organizers to easily create, configure, and deploy a wide range of CTF challenges, from beginner-friendly tasks to complex, real-world scenarios. Challenges can cover areas like reverse engineering, web exploitation, cryptography, and network security.</li>
+
+    <li>Scalable Infrastructure: With Docker integration, the platform can efficiently manage multiple challenges in isolated containers, providing scalability and flexibility for high-traffic events and allowing multiple participants to interact with challenges without interference.</li>
+
+    <li>Dynamic Scoring & Leaderboards: A dynamic scoring system that updates in real time, keeping participants engaged and allowing them to track their progress throughout the competition. The platform also supports both fixed and variable scoring to reflect challenge difficulty.</li>
+
+    <li>User Authentication & Team Management: Offers a robust user authentication system with options for individual and team-based participation, enabling users to collaborate, track their scores, and compete in a structured format.</li>
+
+    <li>Comprehensive Analytics & Reporting: Provides admins with insightful analytics on user performance, challenge completion, and event metrics, helping assess participant skills and improve future events.</li>
+
+    <li>Event Branding & Customization: Allows for branding and customization to align with specific events, including logos, themes, and event-specific rules, creating a unique identity for each competition.</li>
+</ul>
+
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/ctf-3.jpeg" title="Showdown" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
-    This image can also have a caption. It's like magic.
+    CTF Platform for SHOWDOWN (PCC'24), A 1v1 live competition.
 </div>
 
-You can also put regular text between your rows of images.
-Say you wanted to write a little bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, _bled_ for your project, and then... you reveal its glory in the next row of images.
+This CTF Platform has been integral to AirOverflow’s mission to advance cybersecurity skills in a competitive setting. Through these events, we’ve provided a dynamic, supportive learning environment for students, professionals, and enthusiasts to engage with real-world cybersecurity challenges. The platform’s flexibility and scalability continue to support high-profile events, fostering community and growth in the field of cybersecurity.
 
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
-</div>
-
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
-
-{% raw %}
-
-```html
-<div class="row justify-content-sm-center">
-  <div class="col-sm-8 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-  <div class="col-sm-4 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-</div>
-```
-
-{% endraw %}
+If you wish to know more about its features or setup a live demo, please contact <a href='mailto:support@airoverflow.com'> support@airoverflow.com</a>.
